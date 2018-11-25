@@ -1,0 +1,28 @@
+{
+  "name": "ch9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "population.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "debug": "nodemon --nolazy --inspect-brk=9229 index.js"
+  },
+  "keywords": [],
+  "author": "lastingyeh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.3",
+    "config": "^2.0.1",
+    "express": "^4.16.4",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "joi": "^14.0.4",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.9",
+    "winston": "^3.1.0",
+    "winston-mongodb": "^4.0.3"
+  }
+}
